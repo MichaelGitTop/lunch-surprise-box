@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# secrets / local config
+.env
+.env.*
+!.env.example
+
+# runtime output
+*.log
+tmp/
+dist/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 本地工作区数据（含会话记忆 / 收货地址等个人信息，禁止公开）
+.workbuddy/

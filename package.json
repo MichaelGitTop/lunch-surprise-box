@@ -1,0 +1,16 @@
+{
+  "name": "lunch-surprise-box",
+  "version": "1.0.0",
+  "private": true,
+  "description": "午餐惊喜盒 —— 基于麦当劳 MCP 的午餐盲盒 Skill，在预算/热量/忌口约束下用可复现种子开出一份完整午餐组合",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["mcdonalds", "mcp", "skill", "lunch", "workbuddy"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "demo": "node scripts/box-engine.mjs --demo",
+    "test": "node --test scripts/box-engine.test.mjs"
+  }
+}
